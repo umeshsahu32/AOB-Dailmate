@@ -1,0 +1,475 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", "lato";
+}
+
+/* OFFER SECTION START */
+.offer-section {
+  background: #f8f0d4;
+  padding: 50px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.offer-left {
+  width: 50%;
+}
+
+.offer-left h2 {
+  font-size: 2rem;
+  color: #8a38d4;
+  margin-bottom: 15px;
+}
+
+.offer-left p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.offer-left ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #333;
+}
+
+.offer-left li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.offer-right {
+  width: 45%;
+  text-align: center;
+}
+
+.offer-right img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* OFFER SECTION END */
+/* HOW IT WORKS SECTION START */
+.how-it-works {
+  background: #f7f5fc;
+  padding: 50px 10%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.how-left {
+  width: 35%;
+}
+
+.how-left span {
+  font-size: 1.2rem;
+  color: #444;
+  font-weight: 500;
+}
+
+.how-left h2 {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.how-left h3 {
+  font-size: 2rem;
+  color: #8a38d4;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.how-left p {
+  font-size: 1rem;
+  color: #555;
+  max-width: 65%;
+}
+
+.how-right {
+  width: 65%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.work-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.work-box h3 {
+  font-size: 1.1rem;
+  color: #8a38d4;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.work-box p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* HOW IT WORKS SECTION END */
+/* TABLE SECTION START */
+.comparison-section {
+  background: #f7f5fc; /* Light purple background */
+  padding: 50px 10%;
+  text-align: center;
+}
+
+.comparison-section h2 {
+  font-size: 2rem;
+  color: #a128f5;
+  margin-bottom: 20px;
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.comparison-table th {
+  background: #4a90e2;
+  color: white;
+  font-weight: bold;
+}
+
+.comparison-table td {
+  color: #333;
+  font-size: 1rem;
+}
+
+.highlight {
+  background: #eaf2ff;
+  font-weight: bold;
+}
+
+/* TABLE SECTION END */
+/* PRICING SECTION START */
+.pricing-section {
+  background: #00d6c7;
+  color: white;
+  text-align: center;
+  padding: 50px 10%;
+}
+
+.pricing-section h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #222;
+  font-weight: 500;
+}
+
+.pricing-section h2 {
+  font-size: 2rem;
+  color: #a128f5;
+  margin-bottom: 20px;
+}
+
+.pricing-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.pricing-box {
+  background: #a128f5; /* Purple buttons */
+  color: white;
+  padding: 15px 20px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  min-width: 180px;
+  text-align: center;
+  min-height: 55px;
+}
+
+.box-sub {
+  background: #a128f5;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+}
+
+.box-sub span {
+  font-size: 10px;
+}
+
+.pricing-subtext {
+  font-size: 0.9rem;
+  color: #222;
+  margin-top: 5px;
+  font-weight: 500;
+}
+/* PRICING SECTION END */
+
+/* GO TO TOP BUTTON */
+
+#goToTopBtn {
+  display: none; /* Hidden by default */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #8a38d4;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000; /* Ensure it's on top of other elements */
+}
+
+#goToTopBtn svg {
+  display: block;
+}
+
+#goToTopBtn:hover {
+  background-color: #a046f3;
+}
+/* MEDIA QUERY START */
+
+@media (max-width: 992px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 50px 20px;
+    gap: 2rem;
+  }
+
+  .hero img {
+    width: 60%;
+  }
+
+  .hero-content {
+    max-width: 80%;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .how-it-works {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .how-left {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .how-left p {
+    min-width: 100%;
+    text-align: center;
+  }
+
+  .how-right {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .offer-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .offer-left ul {
+    text-align: left;
+  }
+  .offer-left p {
+    text-align: left;
+  }
+
+  .offer-left,
+  .offer-right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .hero img {
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero img {
+    width: 70%;
+  }
+
+  .hero-content {
+    max-width: 90%;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 0.9rem;
+  }
+
+  .comparison-table {
+    background: none;
+    box-shadow: none;
+  }
+
+  .comparison-table,
+  .comparison-table thead,
+  .comparison-table tbody,
+  .comparison-table th,
+  .comparison-table td,
+  .comparison-table tr {
+    display: block;
+    width: 100%;
+  }
+
+  .comparison-table thead {
+    display: none;
+  }
+
+  .comparison-table tr {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    background: white;
+  }
+
+  .comparison-table td {
+    border: none;
+    position: relative;
+    padding-left: 50%;
+    text-align: right;
+  }
+
+  .comparison-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 15px;
+    width: 45%;
+    font-weight: bold;
+    text-align: left;
+    color: #4a90e2;
+  }
+
+  .pricing-section {
+    padding: 30px 5%;
+  }
+
+  .pricing-section h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .pricing-box {
+    background: #a128f5; /* Purple buttons */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    min-width: 120px;
+    text-align: center;
+    min-height: fit-content;
+  }
+
+  .pricing-section h3 {
+    font-size: 1rem;
+  }
+
+  .pricing-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .comparison-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .pricing-subtext {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 528px) {
+  .hero img {
+    width: 90%;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero p {
+    font-size: 0.8rem;
+  }
+
+  .how-it-works {
+    padding: 50px 5%;
+    padding-bottom: 0;
+  }
+
+  .how-right {
+    gap: 10px;
+  }
+
+  .work-box {
+    padding: 12px;
+  }
+
+  .work-box h3 {
+    font-size: 1rem;
+  }
+
+  .work-box p {
+    font-size: 0.8rem;
+  }
+}
