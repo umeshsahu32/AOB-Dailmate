@@ -18,3 +18,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+function onSideBarLinkClick() {
+  const sidebar = document.querySelector(".sidebar");
+  sidebar.classList.remove("active");
+}

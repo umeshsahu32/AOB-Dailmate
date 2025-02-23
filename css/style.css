@@ -10,15 +10,19 @@
 /* OFFER SECTION START */
 .offer-section {
   background: #f8f0d4;
-  padding: 50px 10%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding-right: 5%;
 }
 
 .offer-left {
   width: 50%;
+  padding: 60px 5% 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .offer-left h2 {
@@ -48,11 +52,12 @@
 .offer-right {
   width: 45%;
   text-align: center;
+  height: 100%;
 }
 
 .offer-right img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
 
 /* OFFER SECTION END */
@@ -406,6 +411,29 @@
 
   .pricing-section h2 {
     font-size: 1.5rem;
+  }
+
+  .offer-section {
+    flex-direction: column;
+    padding-right: 0;
+  }
+
+  .offer-left {
+    width: 100%;
+    padding: 40px 10% 30px; /* Top padding for mobile */
+    order: 1; /* Moves content to top */
+    padding-bottom: 0;
+  }
+
+  .offer-right {
+    width: 100%;
+    order: 2; /* Moves image to bottom */
+  }
+
+  .offer-right img {
+    height: auto; /* Fixed height for mobile, adjust as needed */
+    object-fit: contain;
+    margin-top: 0;
   }
 }
 
