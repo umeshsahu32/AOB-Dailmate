@@ -35,3 +35,12 @@ window.onscroll = function () {
 function scrollToTop() {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
+
+function scrollToContact(e) {
+  e.preventDefault();
+  const contactSection = document.getElementById("contact-us");
+  contactSection.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+}

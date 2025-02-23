@@ -159,7 +159,7 @@
   cursor: pointer;
 }
 
-.book-now button {
+.book-now a {
   background: #301c58;
   color: white;
   padding: 10px 20px;
@@ -167,9 +167,10 @@
   border: none;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  text-decoration: none;
 }
 
-.book-now button:hover {
+.book-now a:hover {
   background: #1f1335;
 }
 

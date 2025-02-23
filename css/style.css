@@ -203,7 +203,7 @@
 }
 
 .pricing-box {
-  background: #a128f5; /* Purple buttons */
+  background: #a128f5;
   color: white;
   padding: 15px 20px;
   border-radius: 30px;
@@ -236,6 +236,21 @@
   font-weight: 500;
 }
 /* PRICING SECTION END */
+
+/* CONTACT US SECTION START */
+.contact-us-section {
+  padding: 4rem;
+  background: #f8f0d4;
+}
+
+.contact-us-section h3 {
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 40px;
+  color: #8a38d4;
+}
+
+/* CONTACT US SECTION END */
 
 /* GO TO TOP BUTTON */
 
@@ -439,7 +454,7 @@
 
 @media (max-width: 640px) {
   .pricing-box {
-    background: #a128f5; /* Purple buttons */
+    background: #a128f5;
     color: white;
     padding: 10px 20px;
     border-radius: 10px;
@@ -464,6 +479,15 @@
 
   .pricing-subtext {
     font-size: 0.8rem;
+  }
+
+  .contact-us-section {
+    padding: 2rem;
+  }
+
+  .contact-us-section h3 {
+    font-size: 1.6rem;
+    padding-bottom: 20px;
   }
 }
 

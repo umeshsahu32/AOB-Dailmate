@@ -142,11 +142,11 @@ header {
 
 .hero p {
   font-size: 1.2rem;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: #303030;
 }
 
-.hero button {
+.hero a {
   background: #a046f3;
   color: white;
   border: none;
@@ -155,9 +155,10 @@ header {
   cursor: pointer;
   border-radius: 88888rem;
   transition: 0.3s;
+  text-decoration: none;
 }
 
-.hero button:hover {
+.hero a:hover {
   background: #8a38d4;
 }
 
@@ -249,7 +250,7 @@ header {
 
   .hero p {
     font-size: 1rem;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 992px) {
@@ -320,7 +321,6 @@ header {
 
   .hero p {
     font-size: 1rem;
-    margin-bottom: 10px;
   }
 }
 
