@@ -7,6 +7,13 @@
   font-family: "Raleway", "lato";
 }
 
+:root {
+  --primary-color: #8a38d4;
+  --secondary-color: #7965f3;
+  --background-gradient: linear-gradient(270deg, #ffe5d9 0%, #f0d7ff 100%);
+  --button-hover: #6e2ca8;
+}
+
 /* OFFER SECTION START */
 .offer-section {
   background: #f8f0d4;
@@ -27,7 +34,7 @@
 
 .offer-left h2 {
   font-size: 2rem;
-  color: #8a38d4;
+  color: var(--primary-color);
   margin-bottom: 15px;
 }
 
@@ -89,7 +96,7 @@
 
 .how-left h3 {
   font-size: 2rem;
-  color: #8a38d4;
+  color: var(--primary-color);
   font-weight: bold;
   margin-bottom: 5px;
   font-weight: bold;
@@ -113,11 +120,16 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.work-box:hover {
+  transform: translateY(-10px);
 }
 
 .work-box h3 {
   font-size: 1.1rem;
-  color: #8a38d4;
+  color: var(--primary-color);
   font-weight: bold;
   margin-bottom: 5px;
 }
@@ -137,7 +149,7 @@
 
 .comparison-section h2 {
   font-size: 2rem;
-  color: #a128f5;
+  color: var(--primary-color);
   margin-bottom: 20px;
 }
 
@@ -191,7 +203,7 @@
 
 .pricing-section h2 {
   font-size: 2rem;
-  color: #a128f5;
+  color: var(--primary-color);
   margin-bottom: 20px;
 }
 
@@ -203,7 +215,7 @@
 }
 
 .pricing-box {
-  background: #a128f5;
+  background: var(--primary-color);
   color: white;
   padding: 15px 20px;
   border-radius: 30px;
@@ -215,7 +227,7 @@
 }
 
 .box-sub {
-  background: #a128f5;
+  background: var(--primary-color);
   color: white;
   padding: 10px 20px;
   border-radius: 30px;
@@ -247,7 +259,7 @@
   font-size: 2rem;
   text-align: center;
   padding-bottom: 40px;
-  color: #8a38d4;
+  color: var(--primary-color);
 }
 
 /* CONTACT US SECTION END */
@@ -259,7 +271,7 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #8a38d4;
+  background-color: var(--primary-color);
   color: white;
   border: none;
   padding: 10px;
@@ -273,7 +285,7 @@
 }
 
 #goToTopBtn:hover {
-  background-color: #a046f3;
+  background-color: var(--button-hover);
 }
 /* MEDIA QUERY START */
 

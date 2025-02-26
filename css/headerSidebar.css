@@ -147,7 +147,7 @@ header {
 }
 
 .hero a {
-  background: #a046f3;
+  background: var(--primary-color);
   color: white;
   border: none;
   padding: 12px 20px;
@@ -159,7 +159,7 @@ header {
 }
 
 .hero a:hover {
-  background: #8a38d4;
+  background: var(--button-hover);
 }
 
 .hamburger {

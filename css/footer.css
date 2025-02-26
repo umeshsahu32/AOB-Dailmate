@@ -25,7 +25,7 @@
 }
 
 .footer-heading h2 span {
-  color: #7d45ec;
+  color: var(--primary-color);
 }
 
 .newsletter-section {
@@ -124,6 +124,7 @@
 
 .footer-logo a {
   text-decoration: none;
+  color: var(--primary-color);
 }
 
 .footer-links {
@@ -160,7 +161,7 @@
 }
 
 .book-now a {
-  background: #301c58;
+  background: var(--primary-color);
   color: white;
   padding: 10px 20px;
   border-radius: 10px;
@@ -171,7 +172,7 @@
 }
 
 .book-now a:hover {
-  background: #1f1335;
+  background: var(--button-hover);
 }
 
 .footer-bottom {
