@@ -1,0 +1,57 @@
+main {
+  background-color: #d45dd416;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.submission-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.submission-heading img {
+  max-width: 5rem;
+}
+
+.submission-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.submission-text h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #303030;
+}
+
+.submission-text p {
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #303030;
+}
+
+main a {
+  margin-top: 3rem;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 88888rem;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+main a:hover {
+  background: var(--button-hover);
+}
