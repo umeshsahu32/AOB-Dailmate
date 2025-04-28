@@ -89,7 +89,7 @@ header {
 }
 
 .logo img {
-  height: 70px;
+  height: 120px;
 }
 
 .nav-menu {
@@ -120,14 +120,12 @@ header {
   height: 100vh;
   padding: 0 80px;
   color: white;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: auto;
-  gap: 4rem;
 }
 
 .hero img {
-  width: 80rem;
-  border-radius: 10px;
+  width: 90rem;
 }
 
 .hero-content {

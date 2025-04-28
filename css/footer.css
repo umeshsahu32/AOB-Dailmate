@@ -112,9 +112,11 @@
 }
 
 .footer-logo img {
-  width: 10rem;
+  width: 16rem;
   height: auto;
   object-fit: contain;
+  margin-left: -2.6rem;
+  margin-top: -1rem;
 }
 
 .footer-logo p {
@@ -149,10 +151,12 @@
   list-style: none;
 }
 
-.footer-links ul li {
+.footer-links ul li,
+.footer-links ul li a {
   font-size: 0.9rem;
   color: #444;
   margin-bottom: 10px;
+  text-decoration: none;
 }
 
 .footer-links ul li:hover {

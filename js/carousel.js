@@ -1,10 +1,7 @@
 const imagePaths = [
-  "assets/carousel-images/carousel-image-1.png",
-  "assets/carousel-images/carousel-image-2.png",
-  "assets/carousel-images/carousel-image-3.png",
-  "assets/carousel-images/carousel-image-4.png",
-  "assets/carousel-images/carousel-image-5.png",
-  "assets/carousel-images/carousel-image-6.png",
+  "assets/carousel-images/landing_page_1.png",
+  "assets/carousel-images/landing_page_2.png",
+  "assets/carousel-images/landing_page_3.png",
 ];
 
 const wrapper = document.querySelector(".carousel-wrapper");
@@ -50,7 +47,7 @@ function autoSlide() {
   moveSlide(1);
 }
 
-setInterval(autoSlide, 3000);
+setInterval(autoSlide, 5000);
 
 prevButton.addEventListener("click", () => moveSlide(-1));
 nextButton.addEventListener("click", () => moveSlide(1));
