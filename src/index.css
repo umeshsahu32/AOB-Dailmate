@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.b24-form {
+  background: #f8f0d4 !important;
+  /* padding-bottom: 1rem !important; */
+}

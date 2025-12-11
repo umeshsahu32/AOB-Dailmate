@@ -1,0 +1,341 @@
+/* ============================
+   MAIN HEADER WRAPPER
+============================ */
+.header {
+  width: 100%;
+  height: 100vh;
+  background: #b59bfa;
+  position: relative;
+}
+
+.headerContainer {
+  width: 95%;
+  height: 90%;
+  background: linear-gradient(
+    135deg,
+    #12c7b8e8 70%,
+    #6e74e069 80%,
+    #b59bfa 100%
+  );
+  border-radius: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/* ============================
+     TOP SOCIAL BAR
+  ============================ */
+.headerBar {
+  width: 100%;
+  padding: 30px 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.phoneNumber {
+  display: flex;
+  align-items: center;
+  color: #303030;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.phoneNumber img {
+  width: 26px;
+  margin-right: 8px;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 10px;
+}
+
+.socialIcons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #303030;
+  border-radius: 100%;
+  padding: 6px;
+  transition: 0.2s ease;
+}
+
+.socialIcons img {
+  width: 14px;
+  height: 14px;
+}
+
+.socialIcons a:hover {
+  transform: scale(1.1);
+}
+
+/* ============================
+     NAVBAR
+  ============================ */
+.navbar {
+  width: 100%;
+  padding: 10px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 60px;
+}
+
+.logo img {
+  height: 110px;
+}
+
+.navMenu {
+  display: flex;
+  gap: 50px;
+  position: relative;
+  align-items: center;
+  padding-bottom: 6px;
+}
+
+.navMenu a {
+  text-decoration: none;
+  color: #303030;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.activeLink {
+  color: #8a38d4;
+}
+
+.activeIndicator {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  background: #8a38d4;
+  border-radius: 999px;
+  transition: transform 0.28s ease, width 0.28s ease, opacity 0.2s ease;
+  opacity: 0;
+}
+
+.showIndicator {
+  opacity: 1;
+}
+
+/* ============================
+     HAMBURGER ICON
+  ============================ */
+.hamburger {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+  z-index: 200;
+}
+
+.hamburger svg {
+  width: 32px;
+  height: 32px;
+  fill: #303030;
+}
+
+/* ============================
+     HERO SECTION
+  ============================ */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0 80px;
+  margin-top: 50px;
+}
+
+.hero img {
+  width: 85%;
+  max-width: 680px;
+  object-fit: contain;
+}
+
+.heroContent {
+  max-width: 50%;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  color: #303030;
+  margin-bottom: 30px;
+}
+
+.hero a {
+  display: inline-block;
+  background: #8a38d4;
+  color: #ffffff;
+  padding: 12px 25px;
+  border-radius: 999rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.hero a:hover {
+  background: #6e2ca8;
+}
+
+/* ============================
+     SIDEBAR (MOBILE)
+  ============================ */
+.sidebar {
+  position: fixed;
+  right: -320px;
+  top: 0;
+  width: 300px;
+  height: 100vh;
+  background: #ffffff;
+  padding: 20px;
+  transition: 0.3s ease-in-out;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.15);
+  z-index: 999;
+}
+
+.active {
+  right: 0;
+}
+
+.sidebarClose {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.sidebarClose svg {
+  width: 26px;
+  height: 26px;
+  fill: #303030;
+}
+
+.sidebarContent {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 85%;
+}
+
+.sidebar .navMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.sidebar .navMenu a {
+  color: #303030;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.sidebar .phoneNumber {
+  margin-top: 20px;
+}
+
+.sidebar .socialIcons {
+  margin-top: 20px;
+}
+
+/* ========================================
+     RESPONSIVE: BELOW 992px
+  ======================================== */
+@media (max-width: 992px) {
+  .navbar {
+    top: 0px;
+  }
+
+  .headerContainer {
+    width: 100%;
+    height: 100vh;
+    border-radius: 0;
+  }
+
+  .headerBar {
+    display: none; /* hide social + phone bar */
+  }
+
+  .navMenu {
+    display: none; /* hide desktop nav */
+  }
+
+  .activeIndicator {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .logo img {
+    height: 80px;
+    position: absolute;
+    top: 25px;
+    left: 00px;
+  }
+
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 20px;
+    gap: 30px;
+  }
+
+  .hero img {
+    width: 90%;
+    max-width: 720px;
+  }
+
+  .heroContent {
+    max-width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    width: 100%;
+
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+}
+
+/* ========================================
+     BELOW 480px
+  ======================================== */
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.7rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
