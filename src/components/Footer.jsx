@@ -1,6 +1,10 @@
 import logo from "../assets/dialforce_logo_1.png";
 import { Link } from "react-router-dom";
-import { navLinks as footerLinks , privacyAndTerms, FOOTER_DATA } from "../utils/data";
+import {
+  navLinks as footerLinks,
+  privacyAndTerms,
+  FOOTER_DATA,
+} from "../utils/data";
 
 const Footer = () => {
   return (
@@ -55,12 +59,12 @@ const Footer = () => {
 
             {/* CTA */}
             <div className="w-full sm:w-auto flex justify-start lg:justify-end">
-              <a
-                href="#"
+              <Link
+                to="/contact-us"
                 className="inline-block bg-[#7b2ff7] hover:bg-[#6c26d8] text-white px-6 sm:px-7 py-3 rounded-xl font-semibold shadow-md transition"
               >
                 {FOOTER_DATA.BOOK_A_DEMO}
-              </a>
+              </Link>
             </div>
           </div>
         </div>
