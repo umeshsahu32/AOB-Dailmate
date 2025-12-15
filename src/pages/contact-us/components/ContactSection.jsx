@@ -3,6 +3,20 @@ import { CONTACT_US_DATA } from "../constants/contactUs";
 
 const ContactSection = () => {
   const formRef = useRef(null);
+  const sectionRef = useRef(null);
+
+  // Handle scroll to contact form when hash is present
+  useEffect(() => {
+    if (window.location.hash === "#contact-form" && sectionRef.current) {
+      // Small delay to ensure page is fully rendered
+      setTimeout(() => {
+        sectionRef.current?.scrollIntoView({ 
+          behavior: "smooth", 
+          block: "start" 
+        });
+      }, 100);
+    }
+  }, []);
 
   useEffect(() => {
     const applyStyles = () => {
@@ -47,7 +61,11 @@ const ContactSection = () => {
   }, []);
 
   return (
-    <section className="bg-[#f7f5fc] py-14 sm:py-16 lg:py-20">
+    <section 
+      id="contact-form" 
+      ref={sectionRef}
+      className="bg-[#f7f5fc] py-14 sm:py-16 lg:py-20"
+    >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-3">
           <span className="inline-flex text-xs font-semibold tracking-wide text-purple-700 bg-purple-100 px-3 py-1 rounded-full">

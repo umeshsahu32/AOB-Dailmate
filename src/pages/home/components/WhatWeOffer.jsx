@@ -1,4 +1,4 @@
-import offerImage from "../../../assets/offer-img-2.png";
+import offerImage from "../../../assets/banners/offer-img.png";
 import { HOME_CONSTANTS } from "../constants/home";
 
 const WhatWeOffer = () => {

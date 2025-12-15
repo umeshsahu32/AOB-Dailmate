@@ -1,4 +1,8 @@
-import heroImage from "../assets/girl_3.png";
+import homeBanner from "../assets/banners/home.png";
+import aboutBanner from "../assets/banners/about-us.png";
+import servicesBanner from "../assets/banners/services.png";
+import caseStudiesBanner from "../assets/banners/case-study.png";
+import contactBanner from "../assets/banners/contact-us.png";
 
 export const getTitleAndHeroImage = (pathname) => {
     switch (pathname) {
@@ -6,38 +10,38 @@ export const getTitleAndHeroImage = (pathname) => {
         return {
           title: "Enterprise-Grade Telecalling for Startups & Small Businesses",
           subtitle: "Set up your pre-sales or support teams in 24 hours.",
-          heroImage: heroImage,
+          heroImage: homeBanner,
         };
       case "/about-us":
         return {
-          title: "We’re Dialforce: A B2B Telecalling Company",
-          subtitle: "Your trusted partner for B2B telecalling services",
-          heroImage: heroImage,
+          title: "We’re DialForce: A Modern B2B Telecalling Company",
+          subtitle: "Built to deliver scalable, reliable, and performance-driven calling solutions.",
+          heroImage: aboutBanner,
         };
       case "/services":
         return {
-          title: "Our Complete Stack",
-          subtitle: "Our complete stack of tools and services",
-          heroImage: heroImage,
+          title: "Our Complete Stack of Telecalling Solutions",
+          subtitle: "From lead qualification to conversions, managed end to end.",
+          heroImage: servicesBanner,
         };
       case "/case-studies":
         return {
-          title: "Our Customers Love Us",
+          title: "Real Businesses. Real Conversations. Real Results.",
           subtitle:
-            "Hear from our customers about their experience with Dialforce",
-          heroImage: heroImage,
+            "See how teams across industries scale faster with DialForce.",
+          heroImage: caseStudiesBanner,
         };
       case "/contact-us":
         return {
-          title: "Let’s Talk: Your Success Is Our Mission",
-          subtitle: "Let’s talk about how we can help you achieve your goals",
-          heroImage: heroImage,
+          title: "Let’s Talk. Your Growth Starts With a Conversation.",
+          subtitle: "Connect with our experts to design your ideal calling setup.",
+          heroImage: contactBanner,
         };
       default:
         return {
           title: "Enterprise-Grade Telecalling for Startups & Small Businesses",
           subtitle: "Set up your pre-sales or support teams in 24 hours.",
-          heroImage: heroImage,
+          heroImage: homeBanner,
         };
     }
   };

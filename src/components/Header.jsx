@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
-import logo from "../assets/dialforce_logo_3.png";
-import phoneIcon from "../assets/phone-icon.png";
+import logo from "../assets/logos/dialforce_logo_3.png";
+import phoneIcon from "../assets/icons/phone-icon.png";
 
 import { getTitleAndHeroImage } from "../utils/helper";
 import { socialLinks, navLinks, HEADER_DATA } from "../utils/data";
@@ -148,7 +148,6 @@ const Header = () => {
             <div className={styles.heroContent}>
               <h1>{title}</h1>
               <p>{subtitle}</p>
-              <a href="/contact-us">Get Started →</a>
             </div>
           </div>
         </div>
