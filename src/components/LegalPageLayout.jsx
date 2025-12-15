@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaHome } from "react-icons/fa";
-import logo from "../assets/dialforce_logo_3.png";
+import logo from "../assets/logos/dialforce_logo_3.png";
 
 const LegalPageLayout = ({ title, breadcrumbText, effectiveDate, lastUpdated, children }) => {
   return (
