@@ -2,7 +2,7 @@ import homeBanner from "../assets/banners/home.png";
 import aboutBanner from "../assets/banners/about-us.png";
 import servicesBanner from "../assets/banners/services.png";
 import caseStudiesBanner from "../assets/banners/case-study.png";
-import contactBanner from "../assets/banners/case-study.png";
+import contactBanner from "../assets/banners/contact-us.png";
 
 export const getTitleAndHeroImage = (pathname) => {
     switch (pathname) {
