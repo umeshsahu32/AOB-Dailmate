@@ -11,12 +11,12 @@ const Footer = () => {
     <footer className="w-full bg-linear-to-br from-[#e0c3fc] to-[#8ec5fc] text-[#222] px-4 sm:px-6 md:px-10 lg:px-[10%] py-12 sm:py-14 space-y-10">
       <div className="max-w-[900px] mx-auto">
         {/* Heading */}
-        <div className="flex flex-col gap-1 md:gap-2 text-left max-w-3xl">
-          <h2 className="text-3xl sm:text-2.5xl font-semibold text-[#301c58] leading-tight">
+        <div className="flex flex-col gap-1 md:gap-2 text-center sm:text-left max-w-3xl">
+          <h2 className="text-2xl sm:text-3xl font-semibold text-[#301c58] leading-tight">
             {FOOTER_DATA.YOUR_CUSTOMERS_DESERVE} <br />{" "}
             {FOOTER_DATA.THE_BEST_EXPERIENCE}
           </h2>
-          <h3 className="text-3xl sm:text-3xl font-semibold text-[#6d3ae7] leading-tight">
+          <h3 className="text-2xl sm:text-3xl font-semibold text-[#6d3ae7] leading-tight">
             {FOOTER_DATA.WE_DELIVER_IT}
           </h3>
         </div>

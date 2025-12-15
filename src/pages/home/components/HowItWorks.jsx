@@ -6,9 +6,9 @@ const HowItWorks = () => {
   return (
     <section className="bg-[#f7f5fc] py-12 px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col lg:flex-row items-start">
+        <div className="flex flex-col lg:flex-row">
           {/* Left Section - Text Content */}
-          <div className="space-y-4 lg:sticky lg:top-8 lg:basis-[35%] lg:max-w-[35%] shrink-0">
+          <div className="space-y-4 lg:sticky lg:top-8 lg:basis-[35%] lg:max-w-[35%] shrink-0 items-center lg:items-start text-center lg:text-left">
             <h2 className="text-xl mb-0 font-normal text-black">
               {TITLE}
             </h2>
@@ -21,7 +21,7 @@ const HowItWorks = () => {
               <h4 className="text-3xl font-bold text-purple-600">
                 {DISCOVERY_CALL.TITLE}
               </h4>
-              <p className="text-gray-600 text-base sm:text-lg max-w-[70%]">
+              <p className="text-gray-600 text-base sm:text-lg max-w-full lg:max-w-[70%] mx-auto lg:mx-0 mb-4">
                 {DISCOVERY_CALL.DESCRIPTION}
               </p>
             </div>

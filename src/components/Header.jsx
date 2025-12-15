@@ -176,6 +176,7 @@ const Header = () => {
                 <Link
                   key={item.name}
                   to={item.to}
+                  onClick={() => setOpen(false)}
                   className={isActive ? styles.activeLink : ""}
                 >
                   {item.name}

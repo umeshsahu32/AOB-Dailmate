@@ -54,7 +54,7 @@ const ContactUs = () => {
       style={{ backgroundColor: "#f8f0d4" }}
       className="px-4 flex flex-col items-center"
     >
-      <h3 className="text-4xl pt-12 pb-8 font-bold text-center text-purple-700">
+      <h3 className="text-2xl pt-8 sm:pt-12 font-bold sm:text-3xl text-center text-purple-700">
         {HOME_CONSTANTS.CONTACT_US.TITLE}
       </h3>
 

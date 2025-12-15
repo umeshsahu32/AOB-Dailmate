@@ -3,7 +3,7 @@ import { CASE_STUDY_DATA } from "../constants/CaseStudy";
 
 const HeaderSection = () => {
   return (
-    <section className="sm:pt-16 lg:pt-20">
+    <section className="bg-[#f7f5fc] py-14 sm:py-16 lg:py-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10 sm:space-y-12">
         <div className="space-y-3 text-center">
           <span className="inline-flex text-xs font-semibold tracking-wide text-purple-700 bg-purple-100 px-3 py-1 rounded-full">
