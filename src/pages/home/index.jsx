@@ -1,4 +1,4 @@
-import Carousel from "./components/Carousel";
+import Carousel from "./components/carousel";
 import PricingTable from "./components/PricingTable";
 import WhatWeOffer from "./components/WhatWeOffer";
 import Comparison from "./components/Comparison";
