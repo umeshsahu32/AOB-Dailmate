@@ -11,6 +11,7 @@ import {
 } from "./index";
 import { Layout } from "../layout/Layout";
 
+
 export const AppRouter = createBrowserRouter([
   {
     element: <Layout />,
