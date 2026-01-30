@@ -1,7 +1,7 @@
 export const pricingTableData = [
     {
       packageName: "Flexi Call",
-      price: "₹ 7,999",
+      price: "₹ 8,999",
       modelType: "Pay as you go",
       leadPolicy: "Unlimited (Recharge based)",
       bestUseCase: "Best of Everything",

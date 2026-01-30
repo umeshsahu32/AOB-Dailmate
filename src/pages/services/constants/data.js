@@ -34,7 +34,7 @@ export const packages = [
       "Backup telecaller during emergencies",
     ],
     billing: [
-      "Seat Cost: ₹7,999/month",
+      "Seat Cost: ₹8,999/month",
       "Talk Time Recharge: Recharge only when required",
       "Connected Calls: ₹10/min",
       "Short Calls (< 1 min): ₹5/call",
