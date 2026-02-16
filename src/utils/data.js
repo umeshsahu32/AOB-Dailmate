@@ -29,7 +29,7 @@ export const navLinks = [
 ];
 
 export const HEADER_DATA = {
-  PHONE: "+91 7794866683",
+  PHONE: "+91 80193 37378",
 };
 
 export const privacyAndTerms = [

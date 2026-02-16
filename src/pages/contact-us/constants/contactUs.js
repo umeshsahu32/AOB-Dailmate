@@ -9,7 +9,7 @@ export const CONTACT_US_DATA = {
     "We usually respond within one business day with a tailored next step—whether that’s a quick call, a pilot scope, or a pricing overview.",
   CALL: "Call",
   EMAIL: "Email",
-  CALL_NUMBER: "+91 7794866683",
+  CALL_NUMBER: "+91 80193 37378",
   CALL_TIME: "9 AM – 9 PM IST",
   EMAIL_ADDRESS: "hello@dialforce.in",
   EMAIL_REPLY_TIME: "We reply within one business day",

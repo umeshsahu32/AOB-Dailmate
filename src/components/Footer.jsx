@@ -1,4 +1,4 @@
-import logo from "../assets/logos/dialforce_logo_1.png";
+import logo from "../assets/logos/Dial-force-new.png";
 import { Link } from "react-router-dom";
 import {
   navLinks as footerLinks,
@@ -29,7 +29,7 @@ const Footer = () => {
               <img
                 src={logo}
                 alt="Dialforce"
-                className="w-52 sm:w-60 h-auto object-contain -ml-4 lg:ml-0"
+                className="w-40 h-auto object-contain -ml-4 lg:ml-0"
               />
               <p className="text-base sm:text-lg">
                 {FOOTER_DATA.EMAIL_TEXT}{" "}

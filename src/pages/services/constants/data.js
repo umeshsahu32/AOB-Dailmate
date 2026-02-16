@@ -34,7 +34,7 @@ export const packages = [
       "Backup telecaller during emergencies",
     ],
     billing: [
-      "Seat Cost: ₹8,999/month",
+      "Seat Cost: ₹19,999/month",
       "Talk Time Recharge: Recharge only when required",
       "Connected Calls: ₹10/min",
       "Short Calls (< 1 min): ₹5/call",
@@ -75,7 +75,7 @@ export const packages = [
       "Script optimization for high-intent conversations",
       "QC + weekly improvement calls",
     ],
-    billing: ["Lead policy: 450 unique leads/month", "Max 20 new leads per day", "₹14,999/month"],
+    billing: ["Lead policy: 450 unique leads/month", "Max 20 new leads per day", "₹21,999/month"],
     badge: "Nurture",
   },
   {

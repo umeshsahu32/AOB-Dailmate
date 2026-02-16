@@ -1,7 +1,7 @@
 export const pricingTableData = [
     {
       packageName: "Flexi Call",
-      price: "₹ 8,999",
+      price: "₹19,999",
       modelType: "Pay as you go",
       leadPolicy: "Unlimited (Recharge based)",
       bestUseCase: "Best of Everything",
@@ -15,7 +15,7 @@ export const pricingTableData = [
     },
     {
       packageName: "Smart Reach",
-      price: "₹ 14,999",
+      price: "₹ 21,999",
       modelType: "Fixed with Limit",
       leadPolicy: "Max 450 leads/month (Avg 20 leads/day)",
       bestUseCase: "Organic Leads",
